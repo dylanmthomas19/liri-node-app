@@ -1,23 +1,17 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "Language interpretation &amp; recognition interface, for week 10 of bootcamp",
-  "main": "index.js",
+  "description": "",
+  "main": "keys.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dylanmthomas19/liri-node-app.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dylanmthomas19/liri-node-app/issues"
-  },
-  "homepage": "https://github.com/dylanmthomas19/liri-node-app#readme",
   "dependencies": {
-    "dotenv": "^5.0.1"
+    "dotenv": "^4.0.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.0"
   }
 }
